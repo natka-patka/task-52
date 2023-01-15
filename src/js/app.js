@@ -26,7 +26,7 @@ for(let i = 0; i < lenght; i++){
   element.setAttribute('id' , 'article' + count);
   document.body.appendChild(element);
   let text = 'sampletext';
-  document.getElementById('article' + count).innerHTML += text;
+  document.getElementById('article' + count).innerHTML = text;
   document.getElementById('article' + count).classList.add('message');
 }
   })
